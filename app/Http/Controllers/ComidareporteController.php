@@ -22,7 +22,7 @@ use App\Exports\ComidaExport;
 use App\Sucursal;
 use App\Curl;
 use App\Configuracion;
-use Barryvdh\DomPDF\Facade as PDF;
+use Barryvdh\DomPDF\Facade\Pdf as PDF;
 
 class ComidareporteController extends Controller
 {
