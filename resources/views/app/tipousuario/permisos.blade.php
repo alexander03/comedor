@@ -2,7 +2,7 @@
 use App\Menuoptioncategory;
 use App\Usertype;
 use App\Menuoption;
-use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Request as Input;
 
 $categoriasPadre = Menuoptioncategory::whereNull('menuoptioncategory_id')->get();
 $asignados       = array();
