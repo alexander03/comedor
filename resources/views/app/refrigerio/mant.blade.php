@@ -18,7 +18,7 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 row">
 			{!! Form::text('bebida', null, array('class' => 'form-control input-xs col-lg-6 col-md-6 col-sm-6', 'id' => 'bebida', 'placeholder' => 'Ingrese bebida')) !!}
 			{!! Form::number('kcal_bebida', null, array('class' => 'form-control input-xs col-lg-3 col-md-3 col-sm-3', 'id' => 'kcal_bebida', 'placeholder' => 'Ingrese kcal','style'=>'margin-left:10px')) !!}
-			{!! Form::label('kcal', KCAL, array('class' => 'col-lg-2')) !!}
+			{!! Form::label('kcal', 'KCAL', array('class' => 'col-lg-2')) !!}
 		</div>
 	</div>
 	<div class="form-group">
@@ -26,7 +26,7 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 row">
 			{!! Form::text('sandwich', null, array('class' => 'form-control input-xs col-lg-6 col-md-6 col-sm-6', 'id' => 'sandwich', 'placeholder' => 'Ingrese principal')) !!}
 			{!! Form::number('kcal_sandwich', null, array('class' => 'form-control input-xs col-lg-3 col-md-3 col-sm-3', 'id' => 'kcal_sandwich', 'placeholder' => 'Ingrese kcal','style'=>'margin-left:10px')) !!}
-			{!! Form::label('kcal', KCAL, array('class' => 'col-lg-2')) !!}
+			{!! Form::label('kcal', 'KCAL', array('class' => 'col-lg-2')) !!}
 		</div>
 	</div>
 	<div class="form-group" hidden>
@@ -34,7 +34,7 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 row">
 			{!! Form::text('complemento', null, array('class' => 'form-control input-xs col-lg-6 col-md-6 col-sm-6', 'id' => 'complemento', 'placeholder' => 'Ingrese complemento')) !!}
 			{!! Form::number('kcal_complemento', null, array('class' => 'form-control input-xs col-lg-3 col-md-3 col-sm-3', 'id' => 'kcal_complemento', 'placeholder' => 'Ingrese kcal','style'=>'margin-left:10px')) !!}
-			{!! Form::label('kcal', KCAL, array('class' => 'col-lg-2')) !!}
+			{!! Form::label('kcal', 'KCAL', array('class' => 'col-lg-2')) !!}
 		</div>
 	</div>
 	<div class="form-group" hidden>
@@ -42,7 +42,7 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 row">
 			{!! Form::text('fruta', null, array('class' => 'form-control input-xs col-lg-6 col-md-6 col-sm-6', 'id' => 'fruta', 'placeholder' => 'Ingrese fruta')) !!}
 			{!! Form::number('kcal_fruta', null, array('class' => 'form-control input-xs col-lg-3 col-md-3 col-sm-3', 'id' => 'kcal_fruta', 'placeholder' => 'Ingrese kcal','style'=>'margin-left:10px')) !!}
-			{!! Form::label('kcal', KCAL, array('class' => 'col-lg-2')) !!}
+			{!! Form::label('kcal', 'KCAL', array('class' => 'col-lg-2')) !!}
 		</div>
 	</div>
 	<div class="form-group desayuno" style="display: none;">
@@ -50,7 +50,7 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 row">
 			{!! Form::text('extra', null, array('class' => 'form-control input-xs col-lg-6 col-md-6 col-sm-6', 'id' => 'extra', 'placeholder' => 'Ingrese extra')) !!}
 			{!! Form::number('kcal_extra', null, array('class' => 'form-control input-xs col-lg-3 col-md-3 col-sm-3', 'id' => 'kcal_extra', 'placeholder' => 'Ingrese kcal','style'=>'margin-left:10px')) !!}
-			{!! Form::label('kcal', KCAL, array('class' => 'col-lg-2')) !!}
+			{!! Form::label('kcal', 'KCAL', array('class' => 'col-lg-2')) !!}
 		</div>
 	</div>
 	<div class="form-group">
